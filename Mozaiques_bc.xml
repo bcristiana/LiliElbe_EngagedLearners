@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="LEDA_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il et Elle within Mosaïques</title>
+                <title>French, Éditions de la Nouvelle Revue Critique</title>
+                <author>
+                    <persName key="allatiniH">Hélène Allatini</persName>
+                </author>
+                <respStmt>
+                    <resp>Photographed
+                            <date><!--The date when the photo has been taken is not available. --></date>
+                        by</resp>
+                    <persName><!-- There is no mention of the photographer, nor a key ID. --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Images prepared
+                            <date><!--The date when the image has been prepared is not available.--></date>
+                        by</resp>
+                    <persName><!--  There is no mention of the image preparer's name, nor a key ID. --></persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription completed <date>March 22, 2019</date> by</resp>
+                    <persName ref="bc">Cristiana Bertola</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Translation completed
+                            <date><!--The date when the translation has been completed is not available.--></date>
+                        by</resp>
+                    <persName>Anne M. Callahan</persName>
+                    <!-- There is not a key ID for the translator.-->
+                </respStmt>
+                <respStmt>
+                    <resp>Translation reviewed
+                            <date><!--  The date when the translation has been reviewed is not available. --></date>
+                        by</resp>
+                    <persName>Anne M. Callahan</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding completed <date>March 22, 2019</date> by</resp>
+                    <persName ref="bc">Cristiana Bertola</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoding assistance and/or XML proofing completed by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>XML transformed into HTML
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName ref="rjp">Rebecca J. Parker</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>HTML proofing completed
+                            <date><!-- exact transformation date yyyy-mm-dd --></date> by</resp>
+                    <persName><!-- Name of Proofer --></persName>
+                </respStmt>
+                <sponsor>Loyola University Chicago</sponsor>
+                <sponsor>Loyola's Center for Textual Studies and Digital Humanities</sponsor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Lili Elbe Digital Archive</authority>
+                <pubPlace>Chicago, IL, USA</pubPlace>
+                <date>July 6th, 2019</date>
+                <availability>
+                    <p>Reproduced by courtesy of the
+                            <orgName><!-- What do I type here? --></orgName> in
+                            <placeName><!-- What do I type here? --></placeName>
+                    </p>
+                    <licence>Distributed under a Creative Commons
+                        Attribution-NonCommercial-ShareAlike 4.0 International license.</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p><!-- This is a well preserved page, the verso of the folio, with a small, white mark on the seventh line above the page end. --></p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <pb style="page" n="206"/>
+                <p><!--RJP: 2019-03-25: The starting p tag will actually be on the previous page (including it here until preceeding page inserted.-->amis
+                    communs. On fait circuler l'image qui stupéfia tout le monde. Notre amie,
+                        <persName>la marquise de
+                    S.G.</persName><!--BC: 2019-03-22: The marquise has the same key ID as her husband. Shouldn't they be identified separately, as two distinct persons and characters?-->,
+                    dont le mari était en retard, s'écria: "Faisons une farce à <persName
+                        key="marquisSG">Emilio</persName>, il va arriver d'une instant à l'autre.
+                    Que <persName key="wegenerG">Gerda</persName> lui montre la photo comme celle
+                    d'une de ses amies, et nous verrons s'il reconnaît <persName key="wegenerE"
+                        >Einar</persName>." En bon Napolitain, coureur de femmes, <persName
+                        key="marquisSG">le marquis</persName> fut complètement affolé par ce nu
+                    ravissant: "Oh! Qui est-ce, <persName key="wegenerG">Gerda</persName>? Vous
+                    dites que c'est une amie à vous qui a posé pour vous faire plaisir... mais il
+                    faut que je la connaisse tout de suite. Jurez-moi que vous me présenterez à
+                    elle." Contenant mal son envie de rire, <persName key="wegenerG"
+                        >Gerda</persName> le lui promit, mais ajouta que la personne en question
+                    était assez farouche et d'ailleurs, absente de <placeName key="paris"
+                        >Paris</placeName> en ce moment. Plus elle faisait surgir de difficultés,
+                    plus le pauvre <persName key="marquisSG">marquis</persName> s'enflammait. Il
+                    prenait même <persName key="wegenerE">Bé</persName> à témoin, le priant de
+                    rappeler à <persName key="wegenerG">sa femme</persName>, s'il le fallait, la
+                    promesse qu'elle venait de faire. Nous en pleurions de rire. Le brave <persName
+                        key="marquisSG">Emilio</persName> refusa net de rendre la photo. Il la garda
+                    dans son portefeuille et, depuis, il ne se passa pas de jour qu'il ne se
+                    renseignât sur le retour de <persName key="wegenerE">la belle
+                        bacchante</persName>. Il en avait à ce point perdu la tête qu'en sortant
+                    d'une grande soirée, au moment de présenter son numéro de vestiaire, il donna
+                    par erreur la fameuse photo: "Vieux saligaud! Pour qui me prenez-vous?" lui cria
+                        <persName>la vierge mûre</persName><!--BC: 2019-030-22: Should this character be given a key ID?--> du vestiaire, en la lui lançant presque
+                    au visage.</p>
+                <p>Devant le tour tragique que semblaient prendre les événements, nous décidâmes de
+                    révéler la vérité 
+                    <pb style="page" n="207"/>
+                    <pb style="heading" rend="Mozaïques"/> 
+                    à l'incandescent <persName key="marquisSG">marquis</persName>. Il le prit fort mal, déchira la photo,
+                    dans un accès de rage noire, et, pendant des semaines, n'adressa plus la parole
+                    à aucun de nous.</p>
+                <p>Je ne puis<!--BC: 2019-03-22: I think that the verb should be followed by the negative particle "pas".-->
+                    m'empêcher de sortir encore une fois de mon sujet, pour vous raconter une
+                    anecdote qui date d'environ cinquante ans et dont le héros est <persName
+                        key="naplesArchbishop">l'archevêque</persName> de <placeName key="naples"
+                        >Naples</placeName>, oncle de notre <persName key="marquisSG"
+                        >marquis</persName>. Ce <persName key="naplesArchbishop">prélat</persName>,
+                    connu pour son avarice, avait depuis des années un unique
+                        <persName>valet</persName> <!--BC: 2019-03-22: Should this character be given a key ID?-->qui servait d'homme à tout
+                    faire, et auquel il ne donnait cependant que huit lires par mois
+                    d'appointements. Ce serviteur vint un jour lui demander une augmentation.</p>
+                <p>- <persName key="naplesArchbishop">Monseigneur</persName> sait combien je lui
+                    suis attaché et que je serais inconsolable de devoir quitter son service, mais
+                    je ne puis continuer ainsi. Le prix de la vie augmente tous les jours et je
+                    n'arrive plus à m'acheter l'essentiel, avec mes huit lires. D'ailleurs, tous les
+                    autres gagnent jusqu'à vingt lires et vont encore être augmentés. Je viens donc
+                    prier <persName key="naplesArchbishop">Monseigneur</persName> de m'accorder au
+                    moins deux lires de plus par mois.</p>
+                <p>- Ce que tu viens de dire est juste, répliqua <persName key="naplesArchbishop">Son Excellence</persName>, mais, à mon vif regret, il m'est impossible de te donner davantage. Cependant, comme je comprends fort bien que ton salaire
+                    actuel soit insuffisant et comme je suis très satisfait de tes services, je veux
+                    faire quelque chose pour toi. Je t'accorde donc, à partir d'aujourd'hui, deux
+                    heures de liberté chaque après-midi, de une à trois heures, au moment où la
+                    circulation est le 
+                    <pb style="page" n="208"/>
+                    <pb style="heading" rend="Mozaïques"/> 
+                    plus dense, sur <placeName>le Pont du Château de l'Oeuf</placeName>
+                    <!-- BC: 2019-03-22: This place isn't included in the proposography. Should it get a key ID?-->,
+                    tu pourras y aller mendier. Ainsi, tout s'arrangera pour le mieux."</p>
+                <p>Et l'on pu voir quotidiennement, à l'entrée du <placeName>Pont</placeName><!-- BC: 2019-03-22: This place (le Pont du Château de l'Oeuf) isn't included in the proposography. Should it get a key ID?-->, le <persName>valet</persName>
+                    <!--BC: 2019=03-22: Should this character appear in the prosopography and get a key ID?--> de
+                        <persName key="naplesArchbishop">l'archevêque</persName> tendre la main. Et
+                    cela ne choquait personne... O dolce <placeName key="naples"
+                    >Napoli</placeName>!</p>
+                <p>Je reviens aux <orgName>Wegener</orgName>
+                    <!--BC: 2019-03-22: This is a plural, how should it be marked up that is is about both Einar and Gerda?-->
+                    pour ne plus les quitter. Je demandai à <persName key="wegenerG"
+                        >Gerda</persName> depuis quand elle s'était aperçue, pour la première fois,
+                    des contours féminins de <persName key="wegenerE">Bé</persName>.</p>
+                <p>- Cela remonte loin, me répondit-elle, même avant la guerre. Nous étions encore à
+                        <placeName key="copenhagen">Copenhague</placeName> et je faisais le portrait
+                    d'une <persName key="larsen">actrice</persName> très connue. Un jour, elle
+                    téléphona, au dernier moment, pour décommander la séance. J'étais furieuse et
+                    déçue, ayant gardé mon après-midi pour elle. <persName key="wegenerE"
+                        >Bé</persName>, me voyant contrariée de ne pouvoir avancer mon travail,
+                    s'offrit à remplacer <persName key="larsen">le modèle</persName>, du moins pour
+                    la robe, s'il parvenait à la passer. Je fus stupéfaite de voir que, non
+                    seulement elle lui allait à merveille, mais encore qu'il avait des épaules de
+                    femme, éblouissantes. Je m'amusai alors à compléter l'illusion en posant sur sa
+                    tête une perruque blonde, qui me restait du carnaval et en le fardant de mon
+                    mieux. Je me mis ensuite à peindre et fus surprise, en plein travail, par mon
+                    veritable <persName key="larsen">modèle</persName>, qui venait s'excuser de
+                    m'avoir fait faux bond. En voyant sa robe sur une autre personne, elle fut un
+                    peu étonnée, mais ne reconnut pas <persName key="wegenerE">Einar</persName>.
+                    Pendant un bon moment je lui fis croire qu'une amie l'avait remplacée pour me
+                    rendre service 
+                    <pb style="page" n="209"/>
+                    <pb style="heading" rend="Mozaïques"/> 
+                    et me permettre d'avancer son portrait. Le timbre de voix de <persName key="wegenerE">Bé</persName> finit par le trahir
+                    et <persName key="larsen">la jeune femme</persName>, riant à gorge déployée, ne
+                    parvenait pas à revenir de son ébahissement. Elle s'invita à dîner et fit monter
+                    du champagne "pour boire à la santé de sa nouvelle amie, <persName key="lili"
+                        >Lily</persName>." Pendant le repas, on baptisa <persName key="wegenerE"
+                        >Bé</persName> au champagne, et depuis lors, il posa souvent pour moi, se
+                    déguisant en femme chaque fois que l'occasion s'en présentait. <persName key="wegenerE">Bé</persName> adorait ce genre de travail et aimait à
+                    mystifier les gens, qui le prenaient invariablement pour une fille d'Eve.
+                    <!--BC: 2019-03-22: This is a figure of speech, but it referes to a person, though biblical figure. Should it be marked up and given a key ID?-->
+                    A <!--BC: 2019-03-22: It might be the font choice, but this is a preposition and it should have an accent on, as in À.-->
+                    divers bals costumés, il fit sensation et prit de plus en plus l'habitude de
+                    personnifier <persName key="lili">Lily</persName>. Un soir, qu'enrhumée, je ne
+                    pouvais <!--BC: 2019-03-22: The verb "pouvais" should be followed by the negative particle "pas".-->sortir, il mit ma plus jolie robe décolletée. Après que je l'eus soigneusement coiffé et maquillé, il se rendit, en compagnie d'<persName>un de nos jeunes
+                    amis</persName><!--BC: 2019-03-22: Should he be given a key ID? -->, à un
+                    dîner suivi de soirée dansante qu'on donnait chaque quinzaine à un club
+                    d'<persName>artistes</persName> et de <persName>gens du monde</persName><!--BC: 2019-03-22: Should both these two nouns be marked up and given key IDs?-->auquel nous appartenions. A <!--BC: 2019-03-22: As a preposition, it should appear as À.-->part ce <persName>jeune
+                    ami</persName><!--BC: 2019-03-22: Should he be given a key ID?--> et une <persName key="madameB">dame</persName> de notre connaissance, personne n'était dans le secret. Tous deux présentèrent <persName key="lili">la nouvelle venue</persName> comme la soeur du peintre 
+                    <persName key="wegenerE">Einar Wegener</persName> et ma belle-soeur, ajoutant que nous étions retenus à la
+                    maison par la grippe. La belle <persName key="lili">Lily</persName> eut un
+                    succès fou et décrocha d'une façon foudroyante le coeur d'un officier de
+                    cavalerie, <persName key="countT">le comte de T.</persName>, âgé de
+                    cinquante-cinq à soixante ans, qui, de toute la soirée, ne la quitta pas et
+                    l'accabla de compliments. Elle dut promettre de le revoir; il tint à la
+                    reconduire jusque chez elle et prit congé d'elle 
+                    <pb style="page" n="210"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    à regret. Le surlendemain, comme je travaillais seule dans mon atelier, on sonna à la porte; quelle ne fut ma
+                    surprise en me trouvant face à face avec le <persName key="countT">monsieur</persName>, mûr et correct, que 
+                    <persName key="lili">Lily</persName> m'avait décrit comme son amoureux et qui se tenait sur le
+                    seuil, un peu gêné, les bras chargés de fleurs. Les miens faillirent en
+                    tomber!</p>
+                <p>- N'est-ce pas ici que demeure M<hi rend="super">lle</hi>
+                    <!--BC: 2019-03-22: It is printed as capital M and lle as superscript. How can this be marked up?-->
+                    <persName key="lili">Lily Wegener</persName>
+                    <!--BC: 2019-03-22: Lili Wegener is not mentioned underneath the key ID "lili".-->? balbutia le
+                    pauvre <persName key="countT">homme</persName>. Auriez-vous l'obligeance de lui dire que 
+                    <persName key="countT">le colonel de T.</persName> désirerait la voir.</p>
+                <p>Je le priais d'entrer et de s'asseoir, expliquant que, malheureusement, ma
+                        <persName key="lili">belle-soeur</persName> était sortie et rentrerait tard.
+                    Il en parut bouleversé et resta une bonne demi-heure à m'entretenir des qualités
+                    physiques et morales de <persName key="lili">Lily</persName>. Tout en approvant,
+                    j'avais toutes les peines du monde à garder mon serieux. Je pris cependant
+                    l'initiative de lui apprendre que cette <persName key="lili">enfant</persName>
+                    allait repartir bientót, ayant à régler des affaires de famille au <placeName
+                        key="denmark">Danemark</placeName>. Enfin, le <persName key="countT">comte
+                        de T.</persName> se retira, en m'assurant qu'il ne tarderait pas à revenir.
+                    Il tint parole. Entretemps, notre amie, <persName key="madameB">Mme de
+                        B.</persName><!--BC: 2019-03-22: The last two letters in Mme are superscript. How should it be marked up here?-->,
+                    qui avait assisté au fameux dîner et au coup de foudre militaire, vint nous
+                    raconter que le pauvre <persName key="countT">colonel</persName>, de plus en
+                    plus fou, ne songeait qu'à <persName key="lili">Lily</persName> et parlait même
+                    de divorcer pour l'épouser. Aussi, quand il revint pour la voir, lui annonçai-je
+                    qu'elle était partie subitement la veille, pour <placeName key="copenhagen"
+                        >Copenhague</placeName>. Le malheureux fut au désespoir. Il se confia à
+                        <persName key="wegenerE">Bé</persName>, et lui dit son étonnement de lui
+                    trouver si peu de ressemblance
+                <pb style="page" n="211"/>
+                <pb style="heading" rend="Mozaïques"/>
+                 avec sa délicieuse soeur. "Peut-être un rien dans le regard, mais c'est bien tout." Il nous fallut des efforts héroïques pour ne pas nous trahir et reconduire le <persName key="countT">colonel</persName>, en gardant l'air qui convenait à la situation.</p>
+                <p>Par la suite, nous fîmes envoyer à <persName key="madameB">Mme<!--BC; 2019-03-25: Capital "M" and "me" superscript-how should it be marked up here?-->de B.</persName> des cartes de <placeName key="copenhagen">Copenhague</placeName> signées <persName key="lili">"Lily"</persName>, où <persName key="lili">cette jeune personne</persName> lui confirmait la longueur de son séjour et lui laissait entrevoir de vagues projets de mariage, tout cela pour calmer sa malheureuse <persName key="countT">victime</persName>.</p>
+                <p>Le temps fit heureusement son oeuvre, et nous ne revîmes plus le <persName key="countT">comte de T.</persName></p>
+                <p>Gerda avait connu <persName key="wegenerE">Bé</persName> adolescent, en suivant les cours de dessin et de peinture à <placeName key="academyArt">l'Académie des Beaux-Arts</placeName><!--BC: 2019-03-22: Académie des Beaux-Arts is nt mentioned under the key ID in prosopography.--> de <placeName key="copenhagen">Copenhague</placeName>. La jeune <persName key="wegenerG">artiste</persName> avait voué à <persName key="wegenerE">l'étudiant</persName> une profonde affection et il était devenu son meilleur ami. <persName key="wegenerG">Gerda</persName> était très courtisée et <persName key="wegenerE">Einar</persName>, violemment épris, dépérissait, en se rendant compte qu'il ne serait jamais pour elle qu'un très cher ami et confident. A<!--BC: 2019-03-25: This preposition should be written as À.-->dix-sept ans, la jolie <persName key="wegenerG">Gerda</persName> eut une déception amoureuse, à la suite de laquelle elle devint triste et indifférente aux hommages de ses autres flirts. A ce moment, elle apprit que le pauvre <persName key="wegenerE">Einar</persName> se mourait d'amour pour elle. Il souffrait de crises cardiaques et <persName>les médecins</persName><!--BC: 2019-03-22: Should this noun be given a key ID?--> déclaraient que cet état nerveux pouvait devenir fatal. Déjà meurtrie dans son inclination, la <persName key="wegenerG">jeune fille</persName> ne put supporter l'idée de perdre <persName key="wegenerE">l'être</persName> qui lui était le plus cher, après sa <persName key="gottliebMrs">mère</persName>. Elle courut au chevet de <persName key="wegenerE">Bé</persName> lui dire qu'elle avait réfléchi
+                <pb style="page" n="212"/>
+                <pb style="heading" rend="Mozaïques"/>
+                 et consentait à devenir sa femme. L'effet fut magique et,<!--BC: 2019-03-23: There shouldn't be a comma between two independent clauses.-->le <persName key="wegenerE">jeune homme</persName>, subitement remis, put bientôt conduire à l'autel la blonde <persName key="wegenerG">fille</persName> du pasteur Gotlieb<!--BC: 2019-03-23: Proper name mispelled, with only one t instead of two--><!--BC: 2019-03-23: Pastor Gottlieb is not mentioned in the prosopography, unlike his wife. Should his name be marked up and given a key ID?-->.<persName>Ces enfants</persName><!--BC: 2019-03-23: This is a plural noun (these children) that indicates both Einar and Gerda. How should it be marked up and IDd?-->de dix-sept et vingt ans à peine, étaient d'une candeur puérile et le jeune <persName key="wegenerE">Einar</persName>, aussi vierge que sa petite <persName key="wegenerG">épouse</persName>, ne s'était jamais demandé si, physiquement, il serait à la hauteur des devoirs que son nouvel état lui imposait. Naïve, et ne sachant qu'imparfaitement ce que le mariage réserve aux <persName>filles</persName><!--BC: 2019-03-25: Should this noun be given a key ID?-->, <persName key="wegenerG">Gerda</persName> ne s'étonna qu'à moitié, en constatant combien douces et superficielles étaient les caresses qu'elle recevait de son heureux <persName key="wegenerE">époux</persName>. Ils étaient pleinement satisfaits l'un de l'autre et, quand la <persName key="wegenerG">jeunne femme</persName> éprouvait certains soirs de printemps quelque langueur qu'elle ne parvenait pas à définir, la vie en commmun était si harmonieuse, si lisse et tendre, qu'elle n'y attachait qu'une vague importance. Au bout de longs mois, tous deux constatèrent que les joies sexuelles avaient été refusées à leur union, ce qui ne les empêcha nullement de continuer à vivre en parfaite harmonie. Ils avaient les mêmes goûts en art, la même conception de la vie; enfin, ils ne pouvaient, même un instant, se passer l'un de l'autre. Ils s'aimaient et se disputaient comme deux gosses et j'entends encore <persName key="gottliebMrs">Mme<!--BC: 2019-03-25: M is capital and me superscript. How should it be marked up here?-->Gottlieb</persName> s'écrier, lors d'une de ses visits à <placeName key="paris">Paris</placeName>: "Mais quand cesserez-vous donc d'être des enfants?" Et <persName key="wegenerG">Gerda</persName> de <!--BC: 2019-03-23: I doubt that the preposition "de" was necessary here.--> lui rèpondre: "Mais, <persName key="gottliebMrs">maman</persName>, j'espère bien jamais!"</p>  
+                <p>Depuis quelque temps, je remarquais avec angoisse,<!--BC: 2019-03-23: The comma should not precede a parenthesis.-->
+                    <pb style="page" n="213"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    (ou plutôt on me l'avait fait remarquer), que la silhouette de <persName key="wegenerE">Bé</persName>, déjà efféminée, devenait de plus en plus équivoque: ses vestons semblaient plus pincés à la taille, sa poitrine se bombait, sa démarche ondulante rappelait celle d'une odalisque; sa voix même prenait des inflexions féminines. Mon<persName key="allatiniE">mari</persName>l'avait constaté aussi et "on", c'est-à-dire ma famille, mon entourage, mes connaissances, enfin toute la tribu bienveillante des créatures qui se plaisent à vous faire découvrir, avec une touchante sollicitude, les choses désagréables qui auraient pu vous échapper. "On" s'étonnait, "on" désapprouvait même nos relations et notre amitié avec un <persName key="wegenerE">être</persName> aussi nettement ambigu. Je parlai à <persName key="wegenerG">Gerda</persName> de ce que j'avais observé; elle me répondit qu'elle même le constatait depuis longtemps, bien qu'elle vécut avec <persName key="wegenerE">Einar</persName>, et s'en tourmentait terriblement. "Mais le plus lamentable, ajouta-t-elle, est que<persName key="wegenerE">Bé</persName> aussi s'en rend compte et en souffre au-delà de tout ce que vous pouvez imaginer. Il s'aperçoit qu'on se retourne dans la rue, que l'on rit quand il entre dans un autobus, et s'entends même interpeller quelquefois d'une façon outrageante. Tout le monde le prend pour un inverti, alors que vous savez, comme moi, que les hommes lui sont aussi indifférents que sa première pantoufle. Savez-vous ce qui est arrivé, l'autre soir, à un dîner chez <persName key="bramsonK">Karen Bramson</persName>? Nous étions une dizaine et comme il y avait des Français, la conversation se tenait en cette langue. Brusquement, au milieu du repas, <persName key="bramsonK">Karen</persName>
+                    <pb style="page" n="214"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    <persName key="bramsonK">Bramson</persName>qui, vous le savez, dit sans ménagement ce qui lui passe par la tête, crie à traverse la table à <persName key="wegenerE">Bé</persName>: "Vous, <persName key="wegenerE">Wegener</persName>, naturellement, vous êtes pour hommes?" et <persName key="wegenerE">Einar</persName>, plein d'esprit comme d'habitude, lui répond en souriant: "Non, <persName key="bramsonK">madame</persName>, vous vous trompez, je suis lesbienne."</p>
+                <p>Je l'ai même envoyé consulter deux <persName>médecins</persName><!--BC: 2019-03-23: Should this noun be given a key ID?-->, mais l'un l'a pris pour un fou, l'autre pour un pervers, en sorte qu'il est revenu plus déprimé qu'avant. Il commmence même à éprouver des sortes de malaises tous les mois et, ce qu'il y a de plus curieux, c'est que son caractère et sa mentalité se féminisent encore plus que son être physique. Il n'est heureux qu'en <persName key="lili">Lily</persName><!--BC: 2019-03-23: The name is italicized, how should it be marked up?-->et passe, ainsi constumé, des après-midis entiers, lisant des poèmes, brodant, faisant de la pâtisserie ou jouant avec la petite chienne. Il dit qu'alors, il oublie tout et se sent dans son véritable élément. Seules, vous et moi pouvons comprendre cette situation, aussi n'en ai-je parlé à personne; je m'exposerais à ce qu'on nous tourne en ridicule, <persName key="wegenerE">Bé</persName> et moi, ou à ce qu'on nous prenne, comme <persName>les médecins</persName><!--BC: 2019-03-23: Should this noun be given a key ID?-->l'ont fait, pour des vicieux ou des détraqués. Vous devez sentir combien je suis désespérée de le voir ainsi souffrir et de n'y rien pouvoir..."</p>
+                    <p>Vers le printemps, l'état de <persName key="wegenerE">Bé</persName> s'étant sensiblement aggravé, <persName key="wegenerG">Gerda</persName> décida de passer quelques mois à <placeName key="rome">Rome</placeName>, espérant que le changement de climat et de milieu lui ferait du bien. Ils partirent donc et louèrent un petit appartement, avec atelier,
+                        <pb style="page" n="215"/>
+                        <pb style="heading" rend="Mozaïques"/>
+                        dans <placeName key="rome">la Ville Eternelle</placeName><!--BC: 2019-03-23: La Ville Eternelle does not appear under the key ID "rome."-->. Nous restâmes longtemps sous les revoir<!--BC: 2019-03-23: This should not be "sous", but "sans", as in "we didn't see them again for a long time", it needs to be rectified.-->et les nouvelles que je recevais d'eux étaient rien moins que rassurantes: <persName key="wegenerE">Einar</persName> souffrait de plus en plus de vertiges, de maux de tête et de dépression morale; <persName key="wegenerG">Gerda</persName> prévoyait un prompt retour à <placeName key="paris">Paris</placeName>, au cas où cet état de choses continuerait. Ce ne fut qu'à la fin de l'automne que nous retrouvâmes <persName>nos amis</persName><!--BC: 2019-03-25: This plural noun is a reference to both Einar and Gerda. How should it be marked up>-->. Ils nous invitèrent à dîner, dans un petit restaurant italien de leur quartier. </p>
+                        <p>Le matin, je reçus un coup de téléphone de mon ami,<persName key="warnekros">le professeur W.</persName><!--BC: 2019-03-23: Le professeur W. does not appear under the key ID "warnekros"-->,--<!--BC: 2019-03-23: This is an horizontal parenthesis, how should it be marked up?-->le célèbre gynécologue allemand --<!--BC: 2019-03-23: This is an horizontal parenthesis, how should it be marked up?-->qui se trouvait de passage à <placeName key="paris">Paris</placeName>. Il n'était libre que ce soir-là et désirait beaucoup nous voir. Je décommandai donc <persName key="wegenerE">les Wegener</persName><!--BC: 2019-03-23: This is a collective noun, yet we have only the key IDs for each of the Wageners. How should this noun be marked up? Should it be given a new key ID?-->, en leur expliquant le cas. Vers quatre heures, nouveau coup de téléphone du <persName key="warnekros">practicien</persName>, retenu par une panne de voiture, aux environs de <placeName key="paris">Paris</placeName>. Il était navré mais ne pourrait être de retour que très tard, après sa consultation, et notre soirée était déjà dans l'eau.</p>
+                        <p>- Rattrapons notre dîner avec <persName key="wegenerE">les Einar</persName><!--BC: 2019-03-23: Another collective noun to indicate both Greta and Einar, yet we do not have it identified in the prosopography. How should it be marked up?-->, dis-je à <persName key="allatiniE">mon mari</persName>.</p>
+                        <p>- Mais non, on les verra un autre jour, ils nous croiront fous de changer ainsi, à chaque instant.</p>
+                        <p>A<!--BC: 2019-03-23: It may be because of the font choice, but this preposition needs an accent, as in À.-->ce moment, j'eus l'intuition mystérieuse que nous devions, coûte que coûte, voir nos amis ce même soir. C'était comme un ordre que je recevais, l'influence d'une volonté supérieure à la mienne. J'expliquai à <persName key="allatiniE">mon mari</persName> que notre intimité avec
+                            <pb style="page" n="216"/>
+                            <pb style="heading" rend="Mozaïques"/>
+                            <persName key="wegenerE">les Wegener</persName><!--BC: 2019-03-23: The collective noun that identifies the Wegeners does not have a key ID and does not appear under none of the wegener's key IDs.-->était telle qu'ils ne se formaliseraient point d'un message. Je les prévins donc que nous passerions quand même les prendre vers huit heures.</p>
+                            <p>Quoique préparés à trouver <persName key="wegenerE">Bé</persName> changé, nous eûmes un affreux choc en le revoyant. Notre <persName key="wegenerE">pauvre ami</persName> n'était plus que l'ombre de lui-même, hâve, le teint terreux, les yeux enfoncés dans les orbites, entourés de grands circles bistres, avec une expression désespérée que je n'oublierai jamais. Il fit d'héroïques efforts pour paraître gai pendant le repas, mais, dans son regard, persistait cet air de bête martyrisée que je ne pouvais<!--BC: 2019-03-23: Here, I think we should have the negative particle "pas".-->supporter. N'y tenant plus, je pris <persName key="wegenerG">Gerda</persName> à part et lui confiai ma pénible impression.</p>
+                            <p>- J'allais vous en parler moi-même, me répondit-elle. J'en suis malade! Labouré de souffrances atroces et presque continuelles, le <persName key="wegenerE">pauvre être</persName> ne dort plus. Il sent ses forces décliner chaque jour et si on ne peut<!--BC: 2019-03-23: Here, I think we should have the negative particle "pas".-->faire quelque chose pour le soulager, je crains le pire, car il n'en peut plus! Ses organes masculins s'atrophient de plus en plus, sa poitrine se développe, il endure des tortures chaque mois et je n'ose<!--BC: 2019-03-23: Here, I think we should have the negative particle "pas".--> m'adresser aux <persName>médecins</persName><!--BC: 2019-03-23: Should this noun be given a key ID?-->d'ici, après notre prémière expérience.</p>
+                <p>A<!--BC: 2019-03-23: The preposition should have an accent, as in À.-->ce moment, j'eus la vision distincte de la longue silhouette de mon ami, <persName key="warnekros">le professeur W.</persName> Son passage à <placeName key="paris">Paris</placeName> m'apparut, non point comme une coïncidence, mais comme le doigt de la destinée. Saisie d'une éloquence qui ne m'était pas habituelle, j'exposai mon plan à <persName key="wegenerG">Gerda</persName>: téléphoner
+                    <pb style="page" n="217"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    le lendemain matin au <persName key="warnekros">grand spécialiste</persName>, lui expliquer le cas en quelques mots, et obtenir un rendez-vous pour <persName key="wegenerE">Bé</persName>. Réconfortée et remplie d'espoir, <persName key="wegenerG">Gerda</persName> me promit de faire de son mieux auprès de son <persName key="wegenerE">mari</persName>, pour me l'envoyer le lendemain matin. Elle eut cependant le plus grand mal à le décider: au dernier moment, il voulait se dérober, ayant perdu confiance en toutes choses.</p>
+                    <p>Les quelques détails que je donnais, par téléphone, au <persName key="warnekros">professeur W.</persName> suffirent à éveiller son intérêt; il me fixa aussitôt un rendez-vous. <persName key="wegenerE">Einar</persName> arriva chez moi bien à l'avance; il était extrêmement agité et je parvins difficilement à le calmer, à le convaincre que tout s'arrangerait, dès qu'il serait entre les mains de l'admirable <persName key="warnekros">spécialiste</persName>.</p>
+                <p>- Je ne voulais pas vous le dire devant <persName key="wegenerG">Gerda</persName>, me dit-il, mais je suis décidé à me suicider si je ne puis devenir ce que je suis réellement, une femme. Songez, ma chère <persName key="allatiniH">Hélène</persName>, que je ne suis plus qu'une loque humaine, un déchet inutile. Malade physiquement et moralement --<!--BC: 2019-03-25: How should a horizontal parenthesis be marked up?-->je ne puis même plus tenir un pinceau, ni faire la moindre chose pour <persName key="wegenerG">Gerda</persName> --<!--BC: 2019-03-25: How should a horizontal parenthesis be marked up?-->je ne resterai jamais à sa charge. Elle a été admirable pour moi, personne ne peut savoir ou comprendre à quel point... sauf vous peut-être?... Je vous ai promis, à toutes deux, de consulter ce <persName key="warnekros">grand médecin</persName>. Ce sera ma dernière tentative; s'il ne peut rien, je suis décidé à disparaître... ce sera un soulagement pour moi... et aussi pour ma chère <persName key="wegenerG">Gerda</persName>... après le premier chagrin passé. Je n'entraverai plus sa 
+                    <pb style="page" n="218"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    vie, comme je le fais depuis longtemps. Dans mon cas, vivre serait une lâcheté. Regardez où j'en suis!...</p>
+                    <p>Ce disant, il écarta sa chemise et découvrit les plus beaux seins de femme que j'aie jamais vus. J'en fus saisie et "réalisai" vraiment à cet instant tout ce qu'il venait de me dire.</p>
+                    <p>Quand nous arrivâmes chez mon ami,<persName key="warnekros">le professeur W.</persName><!--BC: 2019-03-24: A comma is needed here.-->ce fut moi qui servit d'interprète. Je dus lui expliquer, en allemand, la progression de la métamorphose d'<persName key="wegenerE">Einar</persName> depuis l'origine. J'attendis dans une pièce voisine, pendant qu'il examinait. Il revint un quart d'heure plus tard, en proie à une agitation qui m'étonna chez <persName key="warnekros">un homme</persName> que je n'avais jamais vu qu'impassible.</p>
+                <p>-Savez-vous, chère <persName key="allatiniH">amie</persName>, que vous m'avez amené un cas unique dans l'histoire de la science médicale, un cas attendu pendant toute une existence sans jamais le rencontrer: <persName key="wegenerE">votre ami</persName> est le seul véritable<!--BC: 2019-03-24: The word "véritable" is italicized.-->hermaphrodite qui existe ou ait existé, car il a été vraiment <persName>homme</persName>, un <persName>homme</persName> chétif, débile, atrophié, mais un homme quand même, dans toute l'acception du terme. En général, les autres êtres, auxquels on donne ce nom, ne sont pas de réels <persName>hermaphrodites</persName><!--BC: 2019-03-24: A comma is needed here.-->mais seulement des hommes affligés d'une hernie inguinale, qui retient leurs organes à l'intérieur du corps, en sorte qu'un peut les prendre pour des femmes. A<!--BC: 2019-03-24: This preposition should be written as À.--> la suite d'un choc physique, d'un accident ou de tout autre phénomène de ce genre, le sexe suspendu descend brusquement et occupe sa
+                    <pb style="page" n="219"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    place normale: la soi-disant <persName>femme</persName> devient alors un <persName>homme</persName>, mais, en réalité, elle l'a toujours été sans qu'on puisse le soupçonner, tandis que <persName key="wegenerE">Wegener</persName>, lui, a été d'abord un <persName>homme</persName> et évolue actuellement vers le sexe féminin, ce qui est tout différent des cas d'hermaphrodisme ordinaires. Il représente donc le premier type parfait de <persName>l'androgyne</persName>. Actuellement, il a en lui les deux sexes et c'est le combat qui se livre entre eux qui martyrise ainsi ce pauvre être. Si l'on n'intervient pas, il succombera sous peu, que ce soit par la violence du conflit ou par sa propre main, car il est incapable de supporter longtemps ses atroces souffrances. Je ne vois qu'une issue: le débarrasser de ce qui reste de son premier sexe, et greffer aux ovaires --<!--BC: 2019-03-24: This is a horizontal parenthesis. How should it be marked up?-->qu'il possède certainement --<!--BC: 2019-03-24: This is a horizontal parenthesis. How should it be marked up?-->des ovaires neufs, en bon état, puis, plus tard, quand il sera capable de le supporter, faire une troisième et dernière opération, qui ouvrira une voie normale aux fonctions génitales. Je devine aisément les assiduités masculines dont votre ami a dû être harcelé, car <persName>les hermaphrodites</persName> ont une puissance de séduction sexuelle aiguë sur <persName>les hommes</persName>, à leur insu. Tout ceci vous fera comprendre une chose, qu'on ignore en général et qui cause tant d'injustices et de calomnies dans notre impitoyable société: beaucoup d'<persName>invertis</persName> sont des êtres qui possèdent un sexe masculine dans lequel se trouvent des ovaires, à la place des testicules. Il en est de même pour beaucoup de <persName>lesbiennes</persName>, qui ont des testicules à la place où devraient se trouver
+                    <pb style="page" n="220"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    leurs ovaires. Ces <persName>malheureux</persName> souffrent donc injustement du mépris et du dégoût publics, alors que leurs penchants sont --<!--BC: 2019-03-24: This is a horizontal parenthesis. How should it be marked up?-->somme toute --<!--BC: 2019-03-24: This is a horizontal parenthesis. How should it be marked up?-->normaux et non vicieux et pervers, comme on se plaît à le leur faire sentir.</p>
+                <p>Je prescrirai d'abord à <persName key="wegenerE">votre ami</persName> un traitement, pour le préparer à surmonter l'épreuve qui l'attend. Vers le début de mars, je le préviendrai et il faudra qu'il vienne immédiatement à <placeName key="berlin">Berlin</placeName> où mon collègue, <persName key="gohrbandt">le professeur G.</persName>, pratiquera la première opération. Dès qu'il en sera remis, il viendra --<!--BC: 2019-03-24: This is a horizontal parenthesis. How should it be marked up?--> ou plutôt elle<!--BC: 2019-03-24: The word is italicized and should be marked up as such.-->viendra --<!--BC: 2019-03-24: This is a horizontal parenthesis. How should it be marked up?-->à la<placeName key="womensClinic">Frauenklinik</placeName>de<placeName key="dresden">Dresde</placeName>, où je ferai la deuxième intervention, par laquelle s'affirmera son véritable sexe. Qu'il ait donc bon courage, en attendant; je suis d'ailleurs certain qu'il l'aura, car on ne peut que s'incliner devant sa vaillance. Puis, s'adressant à <persName key="wegenerE">Einar</persName> lui-même: "Au revoir donc, cher monsieur, en attendant de pouvoir vous dire: Bonjour, chère mademoiselle!"</p>
+                    <p>Ce fut un <persName key="wegenerE">Einar</persName> transfiguré que je ramenai à <persName key="wegenerG">sa femme</persName>! Je n'ai jamais vu pareil changement en si peu de temps. Le visage de <persName key="wegenerE">mon ami</persName> avait passé de la plus déchirante angoisse à la plus parfaite sérénité, comme ces cieux qui, assombris par un orage, s'éclaircissent tout à coup, illuminés d'une rayonnante clarté.</p>
+                    <p>Pendant les deux mois qui suivirent, le pauvre <persName key="wegenerE">Bé</persName>, comme touché par la baguette d'un magicien, reprenait des forces morales et physiques; <persName key="wegenerG">Gerda</persName> me redisait souvent sa joie et son soulagement.</p>
+                        <pb style="page" n="221"/>
+                        <pb style="heading" rend="Mozaïques"/>
+                <p>Ce fut par un beau matin de mars que, seules toutes deux, selon son désir, nous l'accompagnâmes à la gare du Nord<!--BC: 2019-03-24: I have not found a placeName,nor a key ID for "la gare du Nord."-->. Il s'installa dans son compartiment et, galant comme toujours, céda son coin réservé à une <persName>jeune femme</persName><!--Should this character be given a key ID?-->, qui l'en remercia d'un sourire charmant. Son "Merci, monsieur" nous fait rire, nous savions que <persName key="wegenerE">Bé</persName> portait pour la dernière fois son costume masculin, ce dont il n'avait cessé de rejouir pendant le trajet en taxi.<persName key="wegenerG"> Gerda</persName> pensait avoir le temps de terminer une commande très importante et de rejoindre son <persName key="wegenerE">mari</persName> avant l'intervention, mais elle dut partir précipitamment, dans la même semaine, avertie par dépêche que "tout s'était admirablement passé". A<!--BC: 2019-03-24: This preposition should be written as "À".-->peine arrivée à <placeName key="berlin">Berlin</placeName>, <persName key="wegenerE">Einar</persName>, examiné par <persName key="hirschfeld">Marcus Hirschfeld</persName> et quelques autres somnités<!--BC: 2019-03-24: This is a misspelling. The correct form is "sommités."-->berlinoises, avait subi, de la main du <persName key="gohrbandt">professeur G.</persName>, l'ablation qui devait faire de lui une <persName key="lili">Lily</persName> définitive.</p>
+                        <p><persName key="wegenerG">Gerda</persName> emportait du linge de femme, une robe de chambre rose et tout un arsenal de fards et de parfums: de quoi réjouir <persName key="lili">Lily</persName> et lui donner son véritable aspect féminin.</p>
+                <p>En arrivant à la clinique<!--BC: 2019-03-24: If this is the Berlin clinic where Lili is operated by professor Gohrbandt, then I do not find a placeName for it, nor a key ID.--><persName key="wegenerG">la voyageuse</persName> fut tout d'abord frappée du changement de voix de son <persName key="wegenerE">ex-mari</persName><!--BC: 2019-03-24: I assume that, as an "ex", Einar Wegener is referenced here.-->. L'opération avait suffi pour en transformer le timbre et ce fut un joli soprano qui l'accueillit. <persName key="lili">L'opérée</persName><!--BC: 2019-03-24: The feminine form of the noun and of the following adjectives makes clear that Lily is referenced here.-->reposait pâle, mais radieuse, sur ses oreillers, après avoir supporté vaillamment les souffrances qui l'avaient délivrée --<!--BC: 2019-03-24: How should I mark up this horizantal parenthesis?--> enfin! --<!--BC: 2019-03-24: How should I mark up this horizantal parenthesis?-->de sa chrysalide tant détestée. Elle était choyée, gâtée,
+                    <pb style="page" n="222"/>
+                    <pb style="heading" rend="Mozaïques"/>
+                    entourée de fleurs, de prévenances. Les quelques <persName>amis scandinaves</persName><!--BC: 2019-03-24: Should these get a persName and a key ID?-->,qui se trouvaient à <placeName key="berlin">Berlin</placeName>, venaient la voir quotidiennement. Elle était l'idole de la clinique, on n'y parlait que d'elle, de son courage, de sa douceur et de son aventure extraordinaire.</p>
+                <p><persName key="wegenerG">Gerda</persName> eut vite fait de farder sa <persName key="lili">chère fille</persName>,<!--BC: 2019-03-24: There shouldn't be a comma before a parenthesis.-->(car c'est ainsi qu'elle la considérait désormais), de la coiffer, de lui passer la chemise de nuit et la matinée de soie rose que j'avais depuis longtemps promises à <persName key="wegenerE">Bé</persName> pour <persName key="lili">Lily</persName> et qu'elle lui apportait de ma part. On juge de la stupéfaction du <persName key="gohrbandt">professeur G.</persName> en pénétrant dans la chambre, ce soir même, lorsqu'il aperçut, à la place de <persName key="lili">son malade</persName><!--BC: 2019-03-24: I assume that Lili is referenced here.-->, une ravissante <persName key="lili">demoiselle</persName> toute pomponnée, parfumée et frisée pour le recevoir.</p>
+                    <p>Les semaines qui suivirent furent pour la pauvre <persName key="lili">Lily</persName> un rêve enchanteur: pour sa première sortie, <persName key="wegenerG">Gerda</persName> lui fit la surprise d'un beau manteau de fourrure et l'emmena ensuite dans les magasins, choisir tout ce qui manquait encore à son trousseau.</p>
+                <p>Comme il était convenu, j'eus les honneurs de la première lettre de <persName key="lili">Lily</persName>. L'écriture en était tellement différente que j'eus peine à croire, en la décachetant, qu'elle était écrite de sa main: à la place des épais jambages d'<persName key="wegenerE">Einar</persName>, couraient sur le papier des traits élégants et légers, mais ce qui me surprit plus que tout, ce fut le style de <persName key="lili">Lily</persName>, virginal, sensible, délicat, un véritable style de jeune fille, et de jeune fille sentimentale: "<placeName key="berlin">Berlin</placeName>. 10 mars 1930.<!--BC: 2019-03-24: The words that follow the quote mark are italicized, except the digits. How should they be marked up?--></p><!--BC: 2019-03-24: How do I mark up the end of a paragraph that also happens to be the heading of the following letter?-->
+                <pb style="page" n="223"/>
+                <pb style="heading" rend="Mozaïques"/>
+                <p>Chère et grande <persName key="allatiniH">amie</persName>. Je suis si ravie de votre lettre et j'embrasse votre nom chéri. Je suis si heureuse mais tellement fatiguée qu'il m'est impossible d'écrire. L'opération a duré une heure et j'ai hurlé pendant des heures après (avec une voix claire comme celle d'<persName key="schumannE">Elisabeth Schumann</persName>, selon l'avis de mon superbe <persName key="gohrbandt">chirurgien</persName>). <persName key="wegenerE">Bé</persName> a vécu et <persName key="lili">Lily</persName> est bientôt une fille avec son passeport en règle. Le printemps chante dans mon coeur et je pleure de bonheur et je suis sans peur devant toutes les douleurs qui m'attendent. Je vous adore. <persName key="lili">Lily</persName>.<!--BC: 2019-03-24: I think that "Lily" is just the signature, not the beginning of a new line. If so, how should it be marked up?--><!--BC: 2019-03-24: This whole paragraph is italicized.--></p>
+                <!--BC: 2019-03-24: There is a free line between these two paragraphs. How should it be marked up?-->
+                <p>P.S. <persName key="wegenerE">Bé</persName> a fêté l'enterrement de sa vie de garçon."<!--BC: 2019-03-24: This paragraph is italicized.--></p>
+                <!--BC: 2019-03-24: There is a free line between these two paragraphs. How should it be marked up?-->
+                <p>Et encore, le 15 mars: "Tout le monde me gâte ici et m'appelle <persName key="lili">Lily</persName>. Ils me font beaucoup de compliments surtout pour mes jambes. Ça me va très bien. Je ne serai certainement jamais une femme de tête. Ne trouvez-vous pas, chère <persName key="allatiniH">Hélène</persName>, que je dois avoir des ongles roses, et pas rouges, pour la grande opération de <placeName key="dresden">Dresde</placeName>? Maintenant, je ne me retiens plus de montrer ma joie quand je me sens trop heureuse. <persName key="wegenerE">Bé</persName> s'estompe de plus en plus et <persName key="warnekros">le professeur W.</persName> va lui porter le coup de grâce."<!--BC: 2019-03-24: The text between quote marks is italicized.--></p>
+                <!--BC: 2019-03-24: There is a free line between these two paragraphs.-->
+                <p>Quelques semaines plus tard, deux élégantes <persName>jeunes femmes</persName><!--These two "young women" are Gerda and Lili. How should this plural noun be marked up? Should it be given a key ID?-->débarquaient à la <placeName key="womensClinic">Frauenklinik</placeName> de <placeName key="dresden">Dresde</placeName> et se présentaient devant <persName key="warnekros">le professeur W.</persName>,</p>
+                    
+                    
+            </div>
+        </body>
+    </text>
+</TEI>
